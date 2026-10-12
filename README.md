@@ -1,176 +1,242 @@
+# ARPAN MEHTA
+
 <div align="center">
 
-# ARPAN
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=800&color=D6A85C&center=true&vCenter=true&width=650&lines=BUILDING+RELIABLE+SYSTEMS;AUTOMATING+THE+BORING+STUFF;DEPLOYING+WITH+CONFIDENCE;THINKING+IN+INFRASTRUCTURE" alt="Animated DevOps introduction"/>
 
-### Full-Stack Developer • DevOps Engineer • Cloud Builder
+**Cloud Infrastructure · DevOps · Full-Stack Engineering**
 
-<p>
-Building scalable products, cloud infrastructure, and developer-first experiences.
-</p>
+*Build it. Ship it. Observe it. Scale it.*
 
-<br/>
-
-[Portfolio](https://arpanmehta.dev) •
-[GitHub](https://github.com/arpanmehta05) •
-[LinkedIn](https://linkedin.com/in/arpan](https://www.linkedin.com/in/arpan-mehta-ba113228b)) •
-[Email](mailto:arpanmehta05@gmail.com)
+[Portfolio](https://arpanmehta.dev) · [LinkedIn](https://www.linkedin.com/in/arpan-mehta-ba113228b/) · [Email](mailto:arpanmehta05@gmail.com)
 
 </div>
 
 ---
 
-## ABOUT
+## `$ whoami`
 
-I build digital products that feel inevitable.
+```yaml
+name: Arpan Mehta
+role: AI Cloud DevOps Engineer
+education: Computer Science Engineering
+interests:
+  - Cloud-native architecture
+  - Infrastructure automation
+  - CI/CD and platform engineering
+  - AI observability
+  - Full-stack product development
+philosophy: "Automate repeatable work. Engineer for failure."
+```
 
-Currently pursuing Computer Science Engineering while working as an AI Cloud DevOps Engineer Intern. I enjoy building products where software engineering, cloud infrastructure, automation, and user experience intersect.
+I work across the application and infrastructure layers, building products, automating deployments, and connecting cloud services into systems that are easier to operate and scale.
 
-### Focus Areas
-
-- Full Stack Development
-- Cloud Architecture
-- DevOps & CI/CD
-- Platform Engineering
-- System Design
-- AI Infrastructure
-- Open Source
+Currently building **CloudWatcher**, a multi-cloud infrastructure management platform spanning AWS, Azure, and GCP.
 
 ---
 
-## STACK
+## `$ pipeline --visualize`
 
-### Languages
+<div align="center">
 
-```text
-Java • JavaScript • TypeScript • SQL • C++
+```mermaid
+flowchart LR
+    A["01 · CODE"] --> B["02 · BUILD"]
+    B --> C["03 · TEST"]
+    C --> D["04 · DEPLOY"]
+    D --> E["05 · OBSERVE"]
+    E -. "Improve & repeat" .-> A
+
+    style A fill:#24201a,stroke:#c6a15b,color:#f2e8d5
+    style B fill:#24201a,stroke:#c6a15b,color:#f2e8d5
+    style C fill:#24201a,stroke:#8b9a78,color:#f2e8d5
+    style D fill:#33251b,stroke:#e0a45a,color:#f2e8d5
+    style E fill:#1e2922,stroke:#8b9a78,color:#f2e8d5
 ```
 
-### Frontend
+</div>
 
-```text
-React • Next.js • Tailwind CSS • Framer Motion
-```
+<details>
+<summary><b>01 / Infrastructure provisioning</b></summary>
 
-### Backend
+Define infrastructure as code, provision cloud resources, configure access policies, and keep environments reproducible.
 
-```text
-Node.js • Express.js • REST APIs • JWT Auth
-```
+</details>
 
-### Database
+<details>
+<summary><b>02 / Continuous integration</b></summary>
 
-```text
-MongoDB • PostgreSQL
-```
+Build artifacts, validate changes, run tests, and catch failures before deployment.
 
-### Cloud & DevOps
+</details>
 
-```text
-AWS • Azure • Docker • Kubernetes • GitHub Actions • Terraform
-```
+<details>
+<summary><b>03 / Continuous delivery</b></summary>
 
-### Tools
+Deploy containerized applications through controlled pipelines with environment-specific configuration.
 
-```text
-Git • Postman • Linux • Nginx • VS Code
-```
+</details>
+
+<details>
+<summary><b>04 / Observability</b></summary>
+
+Collect logs, metrics, and traces to understand system behavior and investigate production issues.
+
+</details>
 
 ---
 
-## CURRENTLY BUILDING
+## `$ ls ./projects`
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### CloudWatcher
 
-Multi-cloud infrastructure management platform supporting:
+`CLOUD / DEVOPS / AI`
 
-- AWS
-- Azure
-- GCP
-- Infrastructure Simulation
-- Resource Migration
-- Auto Scaling
-- AI Observability
-- Cloud Automation
+A multi-cloud infrastructure management platform.
+
+- AWS, Azure, and GCP integrations
+- Visual infrastructure simulation
+- Resource resizing and migration
+- AI observability and cloud automation
+- Infrastructure visualization
+
+**Focus:** Infrastructure as code, platform engineering, cloud operations.
+
+</td>
+<td width="50%" valign="top">
+
+### AiChess
+
+`FULL-STACK / REAL-TIME`
+
+A real-time multiplayer chess platform.
+
+- Stockfish-powered AI
+- Live multiplayer matchmaking
+- Real-time chat
+- Game replay system
+- Admin dashboard
+
+**Stack:** MERN, Socket.IO, JWT.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Euphoria
+
+`FULL-STACK / AI`
+
+An AI-assisted psychological assessment platform.
+
+- MBTI and PERMA assessments
+- Gemini API integration
+- OAuth authentication
+- Administrative analytics
+
+**Stack:** MERN, Gemini API, Azure.
+
+</td>
+<td width="50%" valign="top">
+
+### Platform Engineering
+
+`BACKEND / AUTOMATION`
+
+Working across APIs, integrations, deployment environments, access control, and infrastructure workflows.
+
+**Focus:** Reliable services, maintainable architecture, and operational automation.
+
+</td>
+</tr>
+</table>
+
+[Explore repositories →](https://github.com/arpanmehta05?tab=repositories)
 
 ---
 
-## FEATURED PROJECTS
+## `$ tech --stack`
 
-### ♟ AiChess
-
-Real-time multiplayer chess platform featuring:
-
-- Stockfish AI
-- Matchmaking
-- Live Chat
-- Replay System
-- Admin Dashboard
-
-**Stack**
-
-`MERN` `Socket.io` `JWT` `MongoDB`
+| Domain | Technologies |
+|---|---|
+| Cloud | AWS · Azure · GCP |
+| Containers | Docker · Kubernetes |
+| Infrastructure as Code | Terraform |
+| CI/CD | GitHub Actions |
+| Backend | Node.js · Express.js · REST APIs |
+| Frontend | React · Next.js · Tailwind CSS |
+| Databases | MongoDB · PostgreSQL |
+| Operations | Linux · Nginx · Git |
+| AI Infrastructure | Tracing · Observability · Evaluation |
 
 ---
 
-### 🧠 Euphoria
+## `$ roadmap --next`
 
-Psychological assessment platform powered by AI.
+Ideas I'm interested in exploring and building:
 
-Features:
+<details>
+<summary><b>01 · Self-healing infrastructure</b></summary>
 
-- MBTI Assessment
-- PERMA Framework
-- Gemini Integration
-- Admin Analytics
-- OAuth Authentication
+Detect unhealthy services, correlate monitoring signals, and trigger safe automated remediation with rollback controls.
 
-**Stack**
+</details>
 
-`MERN` `Gemini API` `Azure`
+<details>
+<summary><b>02 · Multi-cloud cost intelligence</b></summary>
+
+Analyze resource utilization across AWS, Azure, and GCP, identify idle infrastructure, and recommend cost optimizations.
+
+</details>
+
+<details>
+<summary><b>03 · AI-powered incident investigator</b></summary>
+
+Correlate logs, metrics, traces, and deployment events to identify probable root causes and generate incident summaries.
+
+</details>
+
+<details>
+<summary><b>04 · Ephemeral preview environments</b></summary>
+
+Automatically provision isolated environments for pull requests, run validation tests, and destroy the environments after merging.
+
+</details>
+
+<details>
+<summary><b>05 · Developer control plane</b></summary>
+
+Build a unified interface for deployments, infrastructure health, secrets management, and service ownership across environments.
+
+</details>
 
 ---
 
-## JOURNEY
+## `$ git log --career`
 
 ```text
-2026 → AI Cloud DevOps Engineer Intern
-2025 → Open Source Chandigarh DSA Team
-2024 → Full Stack Development
-2023 → Started Computer Science Engineering
-```
+2026  AI Cloud DevOps Engineer
+      Multi-cloud platforms · Automation · AI observability
 
----
+2025  Open Source Chandigarh DSA Team
+      Open-source collaboration · Problem solving
 
-## STATS
+2024  Full-Stack Development
+      Application development · Backend engineering
 
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=arpanmehta05&show_icons=true&hide_border=true&theme=transparent"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpanmehta05&layout=compact&hide_border=true&theme=transparent"/>
-
-</div>
-
----
-
-## CONNECT
-
-```yaml
-Location: India
-Status: Open to Remote Opportunities
-
-Portfolio: https://arpanmehta.dev
-Email: arpanmehta05@gmail.com
-GitHub: github.com/arpanmehta05
-LinkedIn: linkedin.com/in/arpan
+2023  Computer Science Engineering
+      Foundations · Software development
 ```
 
 ---
 
 <div align="center">
 
-### BUILD • DEPLOY • SCALE • AUTOMATE
-
-<sub>Crafted with care by Arpan.</sub>
+### BUILD SOMETHING. AUTOMATE IT. MAKE IT BETTER.
 
 </div>
